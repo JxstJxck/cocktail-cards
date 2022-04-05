@@ -1,0 +1,45 @@
+.grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+
+.card {
+    min-width: 250px;
+    max-height: 300px;
+    min-height: 300px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: linear-gradient(45deg, turquoise, greenyellow);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    font-size: 8em;
+    color: white;
+}
+
+.noDrinksIcon {
+  box-sizing: content-box;
+  font-size: 2em;
+  margin-right: 24px;
+  padding-right: 24px;
+  border-right: 1px solid darkgray;
+}
+
+.noDrinksMessage {
+  display: inline-block;
+}
+
+.noDrinksContainer {
+  margin: 2em 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
